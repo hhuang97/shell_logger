@@ -47,11 +47,3 @@ func InWrapper() bool {
 	return os.Getenv(SocketEnv) != ""
 }
 
-func GetFailedCommand() string {
-    return os.Getenv(FailedCommandEnv)
-}
-
-func GetSucessfulCommand() string {
-    return os.Getenv(CommandEnv)
-}
-
